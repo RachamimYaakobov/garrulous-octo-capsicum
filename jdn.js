@@ -1,6 +1,7 @@
 (function(window) {
     /*  setTimeout(function() {*/
     window.onload = function() {
+        alert("trueUrl");
         var imgs = document.getElementsByTagName('img');
         for (var i = 0; i < imgs.length; i++) {
             if (imgs[i].src.indexOf("jdn.co.il/wp-content/uploads/wp-banners") != -1) {
