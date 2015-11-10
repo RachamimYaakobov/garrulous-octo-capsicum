@@ -1,6 +1,6 @@
 (function(window) {
-    /*  setTimeout(function() {*/
-    window.onload = function() {
+      setTimeout(function() {
+   /* window.onload = function() {*/
         alert("trueUrl");
         var imgs = document.getElementsByTagName('img');
         for (var i = 0; i < imgs.length; i++) {
@@ -10,8 +10,8 @@
             }
         }
         // setVideo();
-    };
-    /*}, 3000); */
+    /* };*/
+   }, 3000); 
 })(window);
 
 /*function setVideo() {
