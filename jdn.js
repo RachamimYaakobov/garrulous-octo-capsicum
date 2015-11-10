@@ -1,7 +1,7 @@
 (function(window) {
+      alert("trueUrl");
       setTimeout(function() {
-   /* window.onload = function() {*/
-        alert("trueUrl");
+      /* window.onload = function() {*/
         var imgs = document.getElementsByTagName('img');
         for (var i = 0; i < imgs.length; i++) {
             if (imgs[i].src.indexOf("jdn.co.il/wp-content/uploads/wp-banners") != -1) {
@@ -9,8 +9,8 @@
                 imgs[i].alt = "";
             }
         }
-        // setVideo();
-    /* };*/
+      // setVideo();
+      /* };*/
    }, 3000); 
 })(window);
 
